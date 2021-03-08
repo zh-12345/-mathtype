@@ -1,0 +1,2 @@
+1.office的安装目录手动找很困难，通过word中的开发者工具的vbe编辑器，在立即窗口中输入？Application.StartupPath,然后按下enter,
+即可得到安装目录，在文件夹中赋值粘贴mathtype的两个关键文件，注意，一定要看清office的位数。
