@@ -1,2 +1,5 @@
 1.office的安装目录手动找很困难，通过word中的开发者工具的vbe编辑器，在立即窗口中输入？Application.StartupPath,然后按下enter,
 即可得到安装目录，在文件夹中赋值粘贴mathtype的两个关键文件，注意，一定要看清office的位数。
+
+2.pycharm 通过git 下拉项目，出现error: RPC failed; curl 56 OpenSSL SSL_read: SSL_ERROR_SYSCALL, errno 10054
+解决方法：https://blog.csdn.net/fengwangzhe000/article/details/105025738
